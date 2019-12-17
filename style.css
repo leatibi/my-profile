@@ -1,0 +1,133 @@
+/*Color and fonts */
+
+body {
+background-color: #eeeeeee3;
+color: #5d5a1a;
+font-family: 'Lora', serif;
+font-size: 17px;
+font-weight: lighter;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+h1, h2{
+font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+font-size:80px;
+font-weight:900;
+letter-spacing: 10px;
+color: black;
+}
+
+h2 {
+font-size:30px;
+font-weight:700;
+letter-spacing: 2px;
+color: black;
+}
+
+
+p {
+    font-family: 'Lora', serif;  
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-size: 20px;
+	color: black;
+}
+
+.img-circle{
+  border-radius:50%;
+}
+.img-bordered{
+border: 10px solid black;
+}
+
+
+
+
+a{
+font-family: 'Roboto', sans-serif;
+font-size:30px;
+font-weight:1000;
+letter-spacing:10px;
+color: white;
+text-decoration: none
+}
+
+a:hover {
+	color: black;
+}
+
+
+
+div {
+background: white;
+margin: 10px;
+}
+
+
+
+/*Custom design with class (99% of your design) */
+
+.container {
+width: 900px;
+margin:40px auto;
+}
+
+@media(max-width: 760px) {
+    .container {
+     width: 600px;
+    }
+}
+
+@media(max-width: 500px) {
+    .container {
+     width: 450px;
+    }
+}
+
+.card-white {
+background-color:white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px;
+}
+
+
+.btn-org{
+background-color: orange;
+color: white;
+border-radius:4px;
+text-decoration: none;
+}
+
+.btn-org:hover{
+background-color: black;
+color: white;
+}
+
+.logo li {
+display: inline;
+padding: 10px;
+}
+.logo i{
+font-size: 60px;
+color: white;
+}
+.logo i:hover {
+font-size: 60px;
+color: black;
+}
+
+.logo{
+list-style: none;
+padding-left: 0px;
+background-color: orange;
+border-radius:6px;
+}
+
+
+
